@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "885a57e6-9763-4f0f-b789-03dc9b108c06",
+		"name": "nontaphan_neversitup_test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5789821"
+	},
+	"item": [
+		{
+			"name": "permutations",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"inputVal\" : \"aabb\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/neversitup/permutations",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"neversitup",
+						"permutations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "odd-number",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"inputVal\" :[0,1,0,1,0]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/neversitup/odd-number",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"neversitup",
+						"odd-number"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "count-smileys",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"inputVal\" :[\":)\", \";(\", \";}\", \":-D\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/neversitup/count-smileys",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"neversitup",
+						"count-smileys"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
